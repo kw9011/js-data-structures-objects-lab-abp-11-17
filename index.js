@@ -4,7 +4,8 @@ function drivers () {
 }
 
 const driver = {}
-describe('updatedriverWithKeyAndValue(driver, key, value)', function () {
-    beforeEach(function () {
-      for (const key in driver) {
-        delete driver[key];
+
+function updatedriverWithKeyAndValue(driver,key,value){
+  newdriver=Object.assign({}, driver, { [key]: value });
+  return newdriver;
+}
