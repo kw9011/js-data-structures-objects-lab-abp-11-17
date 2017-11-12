@@ -5,7 +5,7 @@ function drivers (driver){
 
 const driver = {}
 
-function updatedriverWithKeyAndValue(driver,key,value){
+function updateDriverWithKeyAndValue(driver,key,value){
   newdriver=Object.assign({}, driver, { [key]: value });
   return newdriver;
 }
