@@ -1,4 +1,4 @@
 // Write your solution in this file!
-function driver () {
- object.driver
+function drivers () {
+  typeof driver.object
 }
