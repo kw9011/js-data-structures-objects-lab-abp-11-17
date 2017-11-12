@@ -10,4 +10,6 @@ function updateDriverWithKeyAndValue(driver,key,value){
   return newdriver;
 }
 
-function destructivelyUpdateDriverWithKeyAndValue(driver,key,value){}
+function destructivelyUpdateDriverWithKeyAndValue(driver,key,value){
+  const updatedriver= destructivelyUpdateDriverWithKeyAndValue('Sam', '12 Broadway')
+}
