@@ -1,6 +1,6 @@
 // Write your solution in this file!
-function drivers () {
-  driver=Object.assign{}
+function drivers (driver){
+  driver=Object.assign
 }
 
 const driver = {}
