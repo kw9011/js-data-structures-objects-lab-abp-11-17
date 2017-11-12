@@ -11,5 +11,6 @@ function updateDriverWithKeyAndValue(driver,key,value){
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver,key,value){
-  const updatedriver= destructivelyUpdateDriverWithKeyAndValue('Sam', '12 Broadway')
-}
+  newdriver=Object.assign({}, 'Sam', { ['addess']: '12 Broadway' });
+  return newdriver;
+
